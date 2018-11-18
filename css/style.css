@@ -328,6 +328,16 @@ body {
 	font-family: 'Ranga', cursive;
     float: none;
 }
+
+.slideshow {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.slideshow ul{
+  margin:0;
+}
+
 .in3  {
 	background-color: #FFE4C4;
     font-size : 30px;
