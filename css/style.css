@@ -1,0 +1,362 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  background-color: #FFB6C1;
+  line-height: 1;
+}
+
+.menu {   
+  background-color: gray; 
+  height:50px;
+  position: fixed; 
+  margin: 0%;
+  top: 0%;
+  width:100%; 
+} 
+.menu a { 
+  display: block;  
+  text-align: center;
+  color: white; 
+  padding: 10px;
+  font-family: 'Ranga', cursive;
+  font-size: 25px;
+}
+.menu a:hover {
+    background-color: black;
+}
+.menu ul
+{
+  margin:0;
+  text-align:center;
+}
+.menu li {
+  display: inline-block;
+  list-style: none;
+}
+.welcome {
+    margin-top:100px;
+	text-align : center;
+	font-size : 30px;
+	font-family: 'Lobster', cursive;
+}
+
+.about {
+	color : black;
+	margin: auto;
+	font-family: 'Ranga', cursive;
+	font-size : 50px;
+	margin-top : 20px;
+	margin-bottom : 30px;
+}
+
+.info {
+    background-color: #FFB6C1;
+	color : black;
+	width : 70%;
+	margin: auto;
+	padding-bottom : 100px;
+	border : 15px solid #BC8F8F;
+	border-style : double;
+	font-family: 'Ranga', cursive;
+	font-size : 20px;
+	line-height: 140%;
+}
+
+.info ul {
+	padding-top: 100px;
+	list-style: none;
+	text-align: center;
+}
+.image1 {
+	width: 25%;
+	height: 25%;
+	float: left;
+}
+.image2 {
+	width: 35%;
+	height: auto;
+	float: left;
+	margin: 5px;
+}
+.image3 {
+	width: 35%;
+	height: auto;
+	float: left;
+	margin: 5px;
+}
+.nation {
+	background-color: #FFB6C1;
+	color : black;
+	margin-top: 8%;
+	width: 70%;
+	margin: auto;
+	margin-top: 5%;
+	padding: 10px;
+	padding-top: 2%;
+	padding-bottom: 3%;
+	border : 15px solid #BC8F8F;
+	border-style : double;
+	font-family: 'Ranga', cursive;
+	line-height: 110%;
+}
+
+.major {
+	background-color: #FFB6C1;
+	color : black;
+	width: 70%;
+	margin: auto;
+	margin-top: 5%;
+	padding: 10px;
+	padding-top: 2%;
+	padding-bottom: 3%;
+	border : 15px solid #BC8F8F;
+	border-style : double;
+	font-family: 'Ranga', cursive;
+    line-height: 150%;
+}
+
+.enjoy {
+	color :red;
+	text-align : center;
+	font-size : 30px;
+	font-family: 'Lobster', cursive;
+}
+.resume {
+    margin-top:100px;
+	text-align : center;
+	font-size : 50px;
+	font-family: 'Ranga', cursive;
+}
+
+.re1 {
+	background-color: #FFFFFF;
+	color : black;
+	width : 25%;
+	border : 15px solid #000000;
+	border-style : double;
+	position : static;
+	font-family: 'Ranga', cursive;
+    width: 90%;
+	margin: 20px 20px 20px 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+.re2 {
+	background-color: #FFFFFF;
+	color : black;
+	width : 25%;
+	border : 15px solid #000000;
+	border-style : double;
+	position : static;
+	font-family: 'Ranga', cursive;
+    width: 90%;
+	margin: 20px 20px 20px 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+.re3 {
+	background-color: #FFFFFF;
+	color : black;
+	width : 25%;
+	border : 15px solid #000000;
+	border-style : double;
+	position : static;
+	font-family: 'Ranga', cursive;
+    width: 90%;
+	margin: 20px 20px 20px 20px;
+	padding: 20px;
+	text-align: center;
+}
+.re3 ul {
+	margin:0;
+	text-align : center;
+}
+.re3 li {
+	display: block;
+	list-style: none;
+}
+
+.re4 	 {
+	background-color: #FFFFFF;
+	color : black;
+	width : 25%;
+	border : 15px solid #000000;
+	border-style : double;
+	position : static;
+	font-family: 'Ranga', cursive;
+	width: 90%;
+	margin: 20px 20px 20px 20px;
+	padding: 20px;
+	text-align: center;
+}
+.re4 ul {
+	margin:0;
+	text-align : center;
+}
+.re4 li {
+  display: block;
+  list-style: none;
+}
+
+.re5 	 {
+	background-color: #FFFFFF;
+	color : black;
+	width : 25%;
+	border : 15px solid #000000;
+	border-style : double;
+	position : static;
+	font-family: 'Ranga', cursive;
+    width: 90%;
+	margin: 20px 20px 20px 20px;
+	padding: 20px;
+	text-align: center;
+}
+.re5 ul {
+	  margin:0;
+	text-align : center;
+}
+.re5 li {
+  display: block;
+  list-style: none;
+}
+
+.re6 {	 
+	background-color: #FFFFFF;
+	color : black;
+	width : 25%;
+	border : 15px solid #000000;
+	border-style : double;
+	position : static;
+	font-family: 'Ranga', cursive;
+    width: 90%;
+	margin: 20px 20px 20px 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+.re6 ul {
+	  margin:0;
+	text-align : center;
+}
+.re6 li {
+  display: block;
+  list-style: none;
+}
+
+.int {
+    margin-top:100px;
+	text-align : center;
+	font-size : 50px;
+	font-family: 'Lobster', cursive;
+}
+.in1 {
+
+	background-color: #FFE4C4;
+    font-size : 30px;
+	color : black;
+	width : 50%;
+	padding : 5%;
+	border : 15px solid #DC143C;
+	border-style : dotted;
+	margin :20%;
+	font-family: 'Ranga', cursive;
+    float: none;
+}
+.in2 {  
+	background-color: #FFE4C4;
+    font-size : 30px;
+	color : black;
+	width : 60%;
+	padding : 5%;
+	border : 15px solid #DC143C;
+	border-style : dotted;
+	margin :20%;
+	font-family: 'Ranga', cursive;
+    float: none;
+}
+.in3  {
+	background-color: #FFE4C4;
+    font-size : 30px;
+    color : black;
+    width : 50%;
+    padding : 5%;
+    border : 15px solid #DC143C;
+    border-style : dotted;
+    margin :20%;
+    font-family: 'Ranga', cursive;
+    float: none;
+}
+.in4 {
+    font-size : 30px;
+    background-color: #FFE4C4;
+    color : black;
+	width : 50%;
+	padding : 5%;
+	border : 15px solid #DC143C;
+	border-style : dotted;
+	margin :20%;
+	font-family: 'Ranga', cursive;
+    float: none;
+}
+.in5 {
+	float:none;
+    font-size : 30px;
+	background-color: #FFE4C4;
+	color : black;
+	width : 50%;
+	padding : 5%;
+	border : 15px solid #DC143C;
+	border-style : dotted;
+	margin :20%;
+	font-family: 'Ranga', cursive;
+}
+ 
