@@ -146,7 +146,12 @@ body {
 	font-family: 'Ranga', cursive;
 	line-height: 110%;
 }
-
+  
+#map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+}
+	   
 .major {
 	background-color: #FFB6C1;
 	color : black;
